@@ -1,0 +1,24 @@
+name: WorldQueue
+main: uk.rtm.worldqueue.WorldQueuePlugin
+version: 1.0.0
+api-version: 1.21
+commands:
+  queue:
+    description: Join the queue for a kit duel.
+    usage: /queue <kit>
+  kits:
+    description: Kit administration commands.
+    usage: /kits admin add <name>
+  fights:
+    description: Configure duel arena.
+    usage: /fights arena <world>
+  spectate:
+    description: Spectate a player's duel.
+    usage: /spectate <player>
+  replay:
+    description: Rewatch a completed duel.
+    usage: /replay <fighter1> <fighter2>
+permissions:
+  worldqueue.admin:
+    description: Allows administering kits.
+    default: op

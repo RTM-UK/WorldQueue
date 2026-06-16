@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group = 'uk.rtm'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'spigotmc-repo'
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.21.11-R0.1-SNAPSHOT'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+// Use the default JAR packaging: include compiled classes and resources only.
+// Dependencies are marked as `compileOnly` so they are provided by the server.
