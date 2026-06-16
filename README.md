@@ -1,5 +1,6 @@
 # WorldQueue
-A minecraft plugin that allows players to duel accross worlds/gamemodes e.g a player from lifesteal can duel a player from survival
+WorldQueue is a lightweight Minecraft server plugin for Spigot/Paper that manages duel queues, kit loading, and seamless world transitions. It provides arena matchmaking, replay support, and custom configuration via YAML for easy setup and fast PvP duels. The idea behind this mod was for servers that have different gamemodes e.g Lifesteal and Survival and players in the different gamemodes can duel go from each of the worlds and go back one the duel is over.
+
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/13d3c841-f0ee-4dea-a575-ca7be54a3c48" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e876cc61-d2ec-4312-9959-5a5fa0d05d88" />
